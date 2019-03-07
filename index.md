@@ -10,13 +10,21 @@ In all likelihood, a framework like Confucian ethics would be in support of onli
 
 #### *Algorithm*
 is_decision_ethical(decision):
+
 	ethical = True
+
   For relationship in my relationships:
+
   	If decision does not satisfy my duties in the relationship:
+
   		ethical = False
+
   For virtue in confucian virtues:
+
   	If decision exemplifies virtue:
+
   		ethical = True
+      
   Return ethical
 
 We believe that this algorithm captures the key parts of the Confucian Ethics. It captures that the Confucian Ethics is mainly concerned with relationships and virtues. Something is considered ethical according to the Confucian Ethics if it satisfies the duties that you have in all your relationships or it exemplifies some specific virtue. Our algorithm evaluates a decision according to those considerations. If a decision is input it is assumed to be unethical unless it satisfies the duties you have in all your relationships or it is found to exemplify one of the virtues in the Confucian Ethics.
