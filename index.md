@@ -9,22 +9,22 @@ Being based in the B.C. era, confucian ethics is written to perpetuate stereotyp
 In all likelihood, a framework like Confucian ethics would be in support of online censorship if it were in response to hateful or discriminatory content. One of the core teachings of Confucianism is the universality of actions, or the “golden rule”: do unto others as you would have them do unto you. In respect to this guiding concept, this framework would be strongly against the posting of hateful content. No group of people that discriminates against others would want the same action turned around on them. The deletion of hateful content and censoring of those who choose to participate in it becomes the responsibility of companies in order to act ethically. As an ethics of virtue, Confucianism looks to act in a way that promotes the overall wellbeing of others. For this reason, it would be the responsibility of websites to censor content when necessary. However, Confucian ethics would view these on a case by case basis. It would recognize the importance of not controlling everything that was being shared, but just trying to promote things in a virtuous way. There would definitely be backlash from this selective censorship, as some would believe it infringes on a freedom of speech, but in order to follow the Confucian framework it would be necessary to recognize and act on situations requiring censorship. Treatment of others how one would like to be treated, and doing so in a virtuous way, should act as guiding factors in recognizing what should be censored.
 
 #### *Algorithm*
-is_decision_ethical(decision):
+is_decision_ethical(decision)
 
 	ethical = True
 
-  For relationship in my relationships:
+  For relationship in my relationships
 
-  	If decision does not satisfy my duties in the relationship:
+  	If decision does not satisfy my duties in the relationship
 
   		ethical = False
 
-  For virtue in confucian virtues:
+  For virtue in confucian virtues
 
-  	If decision exemplifies virtue:
+  	If decision exemplifies virtue
 
   		ethical = True
-      
+
   Return ethical
 
 We believe that this algorithm captures the key parts of the Confucian Ethics. It captures that the Confucian Ethics is mainly concerned with relationships and virtues. Something is considered ethical according to the Confucian Ethics if it satisfies the duties that you have in all your relationships or it exemplifies some specific virtue. Our algorithm evaluates a decision according to those considerations. If a decision is input it is assumed to be unethical unless it satisfies the duties you have in all your relationships or it is found to exemplify one of the virtues in the Confucian Ethics.
