@@ -10,7 +10,7 @@ In all likelihood, a framework like Confucian ethics would be in support of onli
 
 #### *Algorithm*
 
-  is_decision_ethical(decision)
+  is_decision_ethical(decision):
 
   	ethical = True
 
